@@ -1,0 +1,38 @@
+.navbar{
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.navbar a{
+     margin: 5px;
+    gap: 4;
+    text-decoration: none;
+}
+
+.theme-yellow {
+    --bg-color: #ffd700; /* Yellow background color */
+    --text-color: #000; /* Black text color */
+}
+
+.theme-white {
+    --bg-color: #fff; /* White background color */
+    --text-color: #000; /* Black text color */
+}
+
+.theme-blue {
+    --bg-color: #3498db; /* Blue background color */
+    --text-color: #fff; /* White text color */
+}
+
+.theme-black {
+    --bg-color: #000; /* Black background color */
+    --text-color: #fff; /* White text color */
+}
+
+.theme-container {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
